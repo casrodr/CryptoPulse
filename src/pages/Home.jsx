@@ -13,6 +13,7 @@ function Home() {
       <MarketUpdate />
       <WhyUs />
       <Join />
+      <Footer />
     </>
   );
 }
