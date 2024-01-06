@@ -6,6 +6,7 @@ function Home() {
     <>
       <Hero />
       <MarketUpdate />
+      <WhyUs />
     </>
   );
 }
