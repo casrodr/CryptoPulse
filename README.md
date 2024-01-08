@@ -4,7 +4,10 @@ CryptoPulse is a cryptocurrency website for accessing real-time information on a
 
 To retrieve real time information, CryptoPulse is integrated with the Coingecko API, a renowned source of cryptocurrency data. Coingecko offers comprehensive insights into thousands of cryptocurrencies, including current and historical price data, trading volume, market capitalization, and other significant metrics. By harnessing the power of the Coingecko API, CryptoPulse ensures users have instant access to the latest cryptocurrency prices and market trends.
 
-CryptoPulse is a React.js-based website using Coingecko API to retreive real data and SCSS to design style sheets. 
+CryptoPulse is a React.js-based website using Coingecko API to retreive real data and SCSS to design style sheets.
+![CryptoPulseHome](https://github.com/casrodr/CryptoPulse/assets/102768038/c52e2c9e-88dc-48ed-8ba5-feb223336e90)
+![CryptoMarket](https://github.com/casrodr/CryptoPulse/assets/102768038/1f94e44b-5a90-42f2-98b4-47f71049bc88)
+
 
 #Features
 Real-time Market Data: Stay on top of cryptocurrency prices and market trends with real-time data.
