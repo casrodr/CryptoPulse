@@ -2,14 +2,14 @@ import ChooseBox from "./ChooseBox";
 import BitHand from "../images/chooseus/Chooseus.png";
 import {
   IconCheck,
-  IconChecklist,
+/*   IconChecklist, */
   IconDeviceMobileMessage,
   IconMoneybag,
-  IconPencilBolt,
-  IconStack,
+/*   IconPencilBolt,
+  IconStack, */
   IconTrendingUp,
   IconWallet,
-  IconWalletOff,
+/*   IconWalletOff, */
 } from "@tabler/icons-react";
 import { IconCash } from "@tabler/icons-react";
 
