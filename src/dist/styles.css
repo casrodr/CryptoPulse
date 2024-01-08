@@ -27,7 +27,7 @@ a {
 /* Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #db00d9 #ffffff;
+  scrollbar-color: #0a93ee #ffffff;
 }
 
 /* Chrome, Edge and Safari */
@@ -43,7 +43,7 @@ a {
 
 *::-webkit-scrollbar-thumb {
   border-radius: 20px;
-  background-color: #ba04b7;
+  background-color: #0a93ee;
   border: 1px solid #ffffff;
 }
 
@@ -52,7 +52,7 @@ a {
 }
 
 *::-webkit-scrollbar-thumb:active {
-  background-color: #ed00eb;
+  background-color: #7a0b79;
 }
 
 .loader {
@@ -60,7 +60,7 @@ a {
   width: 64px;
   height: 64px;
   position: relative;
-  background-image: linear-gradient(#fff 16px, transparent 0), linear-gradient(#ff00ea 16px, transparent 0), linear-gradient(#ff00ea 16px, transparent 0), linear-gradient(#fff 16px, transparent 0);
+  background-image: linear-gradient(#0a93ee 16px, transparent 0), linear-gradient(#6200ff 16px, transparent 0), linear-gradient(#b111d1 16px, transparent 0), linear-gradient(#ff00ea 16px, transparent 0);
   background-repeat: no-repeat;
   background-size: 16px 16px;
   background-position: left top, left bottom, right top, right bottom;
@@ -154,7 +154,7 @@ nav a {
 
 .hamburger-menu {
   display: none;
-  font-size: 2.7rem;
+  font-size: 3rem;
 }
 @media (max-width: 750px) {
   .hamburger-menu {
@@ -280,7 +280,7 @@ nav a {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-image: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
 }
 
 .btc-float {
@@ -413,7 +413,7 @@ nav a {
   justify-content: center;
   gap: 1rem;
   padding: 2rem 4rem;
-  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  background: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
   color: #f3f2f4;
   border-radius: 10rem;
   transition: all 0.2s;
@@ -462,7 +462,7 @@ nav a {
   padding: 1.5rem;
   text-align: right;
   font-weight: 500;
-  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  background: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
   border-radius: 8px 8px 0 0;
   gap: 2rem;
 }
@@ -507,7 +507,7 @@ nav a {
   background-color: #f3f2f4;
 }
 .market-content .activePagi {
-  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  background: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
   color: #f3f2f4;
 }
 .market-content .coin-row {
@@ -591,7 +591,7 @@ nav a {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-image: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
 }
 .choose-container__content {
   display: grid;
@@ -660,7 +660,7 @@ nav a {
   color: #e7e6e8;
 }
 .choose-box i {
-  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  background: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
   display: flex;
   width: 8rem;
   height: 6rem;
@@ -743,7 +743,7 @@ nav a {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-image: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
 }
 .join-content p {
   font-size: 2.2rem;
@@ -753,7 +753,7 @@ nav a {
   font-size: 2rem;
   font-weight: 600;
   padding: 2rem 4rem;
-  background: linear-gradient(25deg, #2600fc, #ff00ea);
+  background: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
   color: #f3f2f4;
   border-radius: 10rem;
   transition: all 0.2s;
@@ -803,7 +803,7 @@ footer {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-image: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
 }
 .footer-content__text {
   font-size: 1.8rem;
@@ -820,7 +820,7 @@ footer {
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  background-image: linear-gradient(25deg, #2600fc, #ff00ea);
+  background-image: linear-gradient(70deg, #ff00ea, #2600fc, #ff00ea);
 }
 
 .footer-icon {

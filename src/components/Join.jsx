@@ -11,11 +11,11 @@ function Join() {
             <img alt="coin_img" className="join-content__eth" src={Eth} />
             <div className="join-content__text">
               <h2>
-                join us via <br /> <span>discord</span>
+                CONNECT VIA <br /> <span>discord</span>
               </h2>
-              <p>Invest and manage all your crypto at one place.</p>
+              <p>Invest and manage cryptocurrency using CryptoPulse.</p>
               <a rel="noreferrer" target="_blank" href="https://discord.com/">
-                Join via Discord
+                Discord
               </a>
             </div>
           </div>

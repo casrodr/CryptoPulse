@@ -1,13 +1,17 @@
 import ChooseBox from "./ChooseBox";
 import BitHand from "../images/chooseus/Chooseus.png";
 import {
+  IconCheck,
   IconChecklist,
   IconDeviceMobileMessage,
   IconMoneybag,
   IconPencilBolt,
   IconStack,
+  IconTrendingUp,
   IconWallet,
+  IconWalletOff,
 } from "@tabler/icons-react";
+import { IconCash } from "@tabler/icons-react";
 
 function WhyUs() {
   return (
@@ -16,24 +20,24 @@ function WhyUs() {
         <div className="container">
           <div className="choose-container">
             <h2>
-              why <span>choose us</span>
+              why <span>CryptoPulse?</span>
             </h2>
             <div className="choose-container__content">
               <div className="choose-container__content__1">
                 <ChooseBox
                   img={<IconWallet />}
                   title="CONNECT YOUR WALLET"
-                  text="Use Trust Wallet, Metamask or to connect to the app."
+                  text="Connect a trusted wallet to easily deposit and withdraw currency."
                 />
                 <ChooseBox
-                  img={<IconPencilBolt />}
-                  title="SELECT YOUR QUANTITY"
-                  text="Upload your crypto and set a title, description and price."
+                  img={<IconCheck />}
+                  title="MAINTAIN CRYPTO"
+                  text="Transfer your crypto and keep track of transactions."
                 />
                 <ChooseBox
-                  img={<IconChecklist />}
+                  img={<IconMoneybag />}
                   title="CONFIRM TRANSACTION"
-                  text="Earn by selling your crypto on our marketplace."
+                  text="Easily trade your crypto on CryptoPulse marketplace."
                 />
               </div>
               <div className="choose-container__content__2">
@@ -42,19 +46,18 @@ function WhyUs() {
               <div className="choose-container__content__3">
                 <ChooseBox
                   img={<IconDeviceMobileMessage />}
-                  title="RECEIVE YOUR OWN NFTS"
-                  text="Invest all your crypto at one place on one platform."
+                  title="NFT COMPATIBILITY"
+                  text="Ability to tranfer NFT domains."
                 />
                 <ChooseBox
-                  img={<IconMoneybag />}
-                  title="TAKE A MARKET
-                  TO SELL"
-                  text="Discover, collect the right crypto collections to buy or sell."
+                  img={<IconCash />}
+                  title="WATCH THE MARKET"
+                  text="Discover and invest in new crypto while keeping up with how numerous currencies are doing."
                 />
                 <ChooseBox
-                  img={<IconStack />}
-                  title="DRIVE YOUR COLLECTION"
-                  text="We make it easy to Discover, Invest and manage."
+                  img={<IconTrendingUp />}
+                  title="KEEP UP TO DATE"
+                  text="Esily check how the market is doing."
                 />
               </div>
             </div>

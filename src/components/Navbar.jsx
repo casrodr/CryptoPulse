@@ -5,7 +5,7 @@ import {
     IconX,
   } from "@tabler/icons-react";
   import { useState } from "react";
-  import { Link } from "react-router-dom";
+  /* import { Link } from "react-router-dom"; */
   import cryptopulseLogo from '../images/navbar/crypto-icon.png';
   
   function Navbar() {
@@ -49,10 +49,10 @@ import {
                 <a href="#market">Market</a>
               </li>
               <li>
-                <a href="#choose-us">Choose Us</a>
+                <a href="#choose-us">Why Us</a>
               </li>
               <li>
-                <a href="#join">Join</a>
+                <a href="#join">Connect</a>
               </li>
             </ul>
             <span>
