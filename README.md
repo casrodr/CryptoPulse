@@ -1,7 +1,10 @@
-#CryptoPulse Website
-Welcome to CryptoPulse – Your go-to source for cryptocurrency news and market updates. This website is built using React.js and styled with SCSS to provide a seamless and user-friendly experience for crypto enthusiasts.
+# CryptoPulse Website
 
-CryptoPulse is a React.js-based website designed to keep you informed about the latest happenings in the cryptocurrency world. With an intuitive and responsive user interface, CryptoPulse makes it easy for you to stay updated on market trends, news, and more.
+CryptoPulse is a cryptocurrency website for accessing real-time information on a diverse array of cryptocurrencies. CryptoPulse keeps users informed about real time and updated cryptocurrency prices, market capitalization, trading volume, and other essential metrics.
+
+To retrieve real time information, CryptoPulse is integrated with the Coingecko API, a renowned source of cryptocurrency data. Coingecko offers comprehensive insights into thousands of cryptocurrencies, including current and historical price data, trading volume, market capitalization, and other significant metrics. By harnessing the power of the Coingecko API, CryptoPulse ensures users have instant access to the latest cryptocurrency prices and market trends.
+
+CryptoPulse is a React.js-based website using Coingecko API to retreive real data and SCSS to design style sheets. 
 
 #Features
 Real-time Market Data: Stay on top of cryptocurrency prices and market trends with real-time data.
@@ -11,7 +14,7 @@ Responsive Design: Access CryptoPulse on any device – desktop, tablet, or mobi
 Getting Started
 Before you begin, make sure you have Node.js installed on your machine.
 
-#Installation
+# Installation
 Clone the repository:
 
 git clone https://github.com/yourusername/cryptopulse.git
@@ -29,7 +32,7 @@ Open your browser and visit http://localhost:3000.
 
 Explore CryptoPulse and enjoy the latest updates in the crypto world!
 
-#Contributing
+# Contributing
 
 Fork the repository.
 Create a new branch for your feature or bug fix: git checkout -b feature/new-feature.
