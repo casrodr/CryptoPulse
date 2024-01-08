@@ -224,7 +224,7 @@ nav a {
 .hero-section {
   width: 100%;
   height: 100vh;
-  background-image: linear-gradient(to top, #0f051d 30%, #130749 70%);
+  background-image: linear-gradient(to top, #2f2a36 30%, #000000 70%);
 }
 
 .hero-content {
@@ -428,7 +428,7 @@ nav a {
 }
 
 .market-section {
-  background-color: #0f051d;
+  background-color: #2f2a36;
   padding: 5rem 0;
 }
 
@@ -565,7 +565,7 @@ nav a {
 }
 
 .why-section {
-  background-color: #0f051d;
+  background-color: #2f2a36;
   padding: 10rem;
 }
 @media (max-width: 700px) {
@@ -670,7 +670,7 @@ nav a {
 }
 
 .join-section {
-  background-color: #0f051d;
+  background-color: #2f2a36;
   padding: 10rem;
 }
 
@@ -768,7 +768,7 @@ nav a {
   }
 }
 footer {
-  background-color: #0f051d;
+  background-color: #2f2a36;
   width: 100%;
   height: 35rem;
   /* background-image: url(""); */
