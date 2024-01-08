@@ -6,6 +6,7 @@ import {
   } from "@tabler/icons-react";
   import { useState } from "react";
   import { Link } from "react-router-dom";
+  import cryptopulseLogo from '../images/navbar/crypto-icon.png';
   
   function Navbar() {
     const [sticky, setSticky] = useState(false);
@@ -36,9 +37,10 @@ import {
       <>
         <nav className={sticky ? "sticky-nav" : ""}>
           <div className="navbar">
-            <Link to="/">
-              <p onClick={goTop}>COINDOM</p>
-            </Link>
+          <div style={{ display: 'flex', alignItems: 'center' }}>
+          <img src={cryptopulseLogo} alt="Cryptopulse Logo" style={{ marginRight: '8px', width: 'auto', height: '1em' }}/>
+              <p onClick={goTop}>CRYPTOPULSE</p>
+            </div>
             <ul>
               <li>
                 <a href="#home">Home</a>

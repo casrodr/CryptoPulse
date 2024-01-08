@@ -1,7 +1,7 @@
 /* Main hero sections what users see first */
 
 import { useEffect, useState } from "react";
-import Btc from "../images/hero/bitcoin.png";
+import Btc from "../images/hero/crypto-icon.png";
 import Eth from "../images/hero/ethereum.png";
 import { Link } from "react-router-dom";
 import { IconChevronDown } from "@tabler/icons-react";

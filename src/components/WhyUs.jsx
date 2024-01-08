@@ -1,5 +1,5 @@
 import ChooseBox from "./ChooseBox";
-import BitHand from "../images/chooseus/choose-main.png";
+import BitHand from "../images/chooseus/Chooseus.png";
 import {
   IconChecklist,
   IconDeviceMobileMessage,
@@ -38,7 +38,7 @@ function WhyUs() {
               </div>
               <div className="choose-container__content__2">
                 <img src={BitHand} alt="hand_img" />
-              </div>
+              </div> 
               <div className="choose-container__content__3">
                 <ChooseBox
                   img={<IconDeviceMobileMessage />}
